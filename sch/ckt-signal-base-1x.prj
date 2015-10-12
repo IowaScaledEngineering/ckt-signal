@@ -1,0 +1,7 @@
+schematics ckt-signal-base-1x.sch
+output-name ../pcb/ckt-signal-base-1x
+skip-m4
+elements-dir ../../../../ise-footprints
+
+
+
