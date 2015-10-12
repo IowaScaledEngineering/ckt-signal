@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 500.00mil 1000.00mil]
+PCB["" 1000.00mil 1000.00mil]
 
 Grid[500.000000 0.0000 0.0000 1]
 PolyArea[200000000.000000]
@@ -788,118 +788,180 @@ Symbol['~' 12.00mil]
 Attribute("PCB::grid::unit" "mil")
 Attribute("import::src0" "/home/data/design/iascaled-internal/design/i2c-irsense/sch/i2c-irsense.sch")
 
-Element["hidename" "JUMPER2x2" "J2" "unknown" 150.00mil 240.00mil 0.0000 0.0000 0 100 ""]
-(
-	Pin[50.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
-	Pin[150.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
-	Pin[50.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
-	Pin[150.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 10.00mil]
-	ElementLine [200.00mil -200.00mil 200.00mil 0.0000 10.00mil]
-	ElementLine [0.0000 -200.00mil 200.00mil -200.00mil 10.00mil]
-	ElementLine [0.0000 -200.00mil 0.0000 0.0000 10.00mil]
-	ElementLine [100.00mil -100.00mil 100.00mil 0.0000 10.00mil]
-	ElementLine [0.0000 -100.00mil 100.00mil -100.00mil 10.00mil]
-
-	)
-
-Element["hidename" "STANDOFF_HEX_n4" "H1" "unknown" 250.00mil 430.00mil 0.0000 100.00mil 0 100 ""]
+Element["hidename" "STANDOFF_HEX_n4" "H1" "unknown" 500.00mil 430.00mil 0.0000 100.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 293.68mil 20.00mil 299.68mil 128.50mil "screw" "1" ""]
 
 	)
 
-Element["hidename,selected" "TERMBLK4_100MIL" "J1" "unknown" 250.00mil 765.00mil 180.00mil -215.00mil 0 100 "selected"]
+Element["hidename" "TERMBLK8_100MIL" "J1" "unknown" 500.00mil 750.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pin[-150.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "1" "1" "selected,square,edge2"]
-	Pin[-50.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "2" "2" "selected,edge2"]
-	Pin[50.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "3" "3" "selected,edge2"]
-	Pin[150.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "4" "4" "selected,edge2"]
-	ElementLine [-210.00mil -130.00mil -210.00mil 125.00mil 10.00mil]
-	ElementLine [210.00mil -130.00mil 210.00mil 125.00mil 10.00mil]
-	ElementLine [-210.00mil -130.00mil 210.00mil -130.00mil 10.00mil]
-	ElementLine [-210.00mil -110.00mil 210.00mil -110.00mil 10.00mil]
-	ElementLine [-210.00mil 125.00mil 210.00mil 125.00mil 10.00mil]
+	Pin[-350.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "1" "1" "square,edge2"]
+	Pin[-250.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "2" "2" "edge2"]
+	Pin[-150.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "3" "3" "edge2"]
+	Pin[-50.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "4" "4" "edge2"]
+	Pin[50.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "5" "5" "edge2"]
+	Pin[150.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "6" "6" "edge2"]
+	Pin[250.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "7" "7" "edge2"]
+	Pin[350.00mil 0.0000 80.00mil 30.00mil 86.00mil 48.00mil "8" "8" "edge2"]
+	ElementLine [-410.00mil -130.00mil -410.00mil 125.00mil 10.00mil]
+	ElementLine [410.00mil -130.00mil 410.00mil 125.00mil 10.00mil]
+	ElementLine [-410.00mil -130.00mil 410.00mil -130.00mil 10.00mil]
+	ElementLine [-410.00mil -110.00mil 410.00mil -110.00mil 10.00mil]
+	ElementLine [-410.00mil 125.00mil 410.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["hidename" "JUMPER4x2" "J2" "unknown" 300.00mil 235.00mil -45.00mil -340.00mil 0 100 ""]
+(
+	Pin[50.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
+	Pin[150.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" "edge2"]
+	Pin[250.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" "edge2"]
+	Pin[350.00mil -50.00mil 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" "edge2"]
+	Pin[50.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
+	Pin[150.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" "edge2"]
+	Pin[250.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" "edge2"]
+	Pin[350.00mil -150.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" "edge2"]
+	ElementLine [0.0000 0.0000 400.00mil 0.0000 10.00mil]
+	ElementLine [400.00mil -200.00mil 400.00mil 0.0000 10.00mil]
+	ElementLine [0.0000 -200.00mil 400.00mil -200.00mil 10.00mil]
+	ElementLine [0.0000 -200.00mil 0.0000 0.0000 10.00mil]
+	ElementLine [100.00mil -100.00mil 100.00mil 0.0000 10.00mil]
+	ElementLine [0.0000 -100.00mil 100.00mil -100.00mil 10.00mil]
 
 	)
 Layer(1 "top")
 (
-	Line[400.00mil 770.00mil 400.00mil 590.00mil 30.00mil 20.00mil "clearline"]
-	Line[400.00mil 590.00mil 430.00mil 560.00mil 30.00mil 20.00mil "clearline"]
-	Line[430.00mil 560.00mil 430.00mil 225.00mil 30.00mil 20.00mil "clearline"]
-	Line[430.00mil 225.00mil 395.00mil 190.00mil 30.00mil 20.00mil "clearline"]
-	Line[395.00mil 190.00mil 300.00mil 190.00mil 30.00mil 20.00mil "clearline"]
-	Line[100.00mil 765.00mil 100.00mil 595.00mil 30.00mil 20.00mil "clearline"]
-	Line[100.00mil 595.00mil 65.00mil 560.00mil 30.00mil 20.00mil "clearline"]
-	Line[65.00mil 560.00mil 65.00mil 230.00mil 30.00mil 20.00mil "clearline"]
-	Line[65.00mil 230.00mil 105.00mil 190.00mil 30.00mil 20.00mil "clearline"]
-	Line[105.00mil 190.00mil 205.00mil 190.00mil 30.00mil 20.00mil "clearline"]
+	Line[670.00mil 550.00mil 600.00mil 620.00mil 10.00mil 20.00mil "clearline"]
+	Line[600.00mil 620.00mil 565.00mil 620.00mil 10.00mil 20.00mil "clearline"]
+	Line[565.00mil 620.00mil 550.00mil 635.00mil 10.00mil 20.00mil "clearline"]
+	Line[550.00mil 635.00mil 550.00mil 750.00mil 10.00mil 20.00mil "clearline"]
+	Line[650.00mil 750.00mil 650.00mil 600.00mil 10.00mil 20.00mil "clearline"]
+	Line[650.00mil 600.00mil 690.00mil 560.00mil 10.00mil 20.00mil "clearline"]
+	Line[690.00mil 560.00mil 690.00mil 305.00mil 10.00mil 20.00mil "clearline"]
+	Line[415.00mil 250.00mil 370.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[370.00mil 250.00mil 325.00mil 295.00mil 10.00mil 20.00mil "clearline"]
+	Line[325.00mil 295.00mil 325.00mil 675.00mil 10.00mil 20.00mil "clearline"]
+	Line[325.00mil 675.00mil 250.00mil 750.00mil 10.00mil 20.00mil "clearline"]
+	Line[305.00mil 595.00mil 150.00mil 750.00mil 10.00mil 20.00mil "clearline"]
+	Line[450.00mil 185.00mil 450.00mil 235.00mil 10.00mil 20.00mil "clearline"]
+	Line[450.00mil 235.00mil 435.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[435.00mil 250.00mil 395.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[450.00mil 85.00mil 500.00mil 135.00mil 10.00mil 20.00mil "clearline"]
+	Line[500.00mil 135.00mil 500.00mil 225.00mil 10.00mil 20.00mil "clearline"]
+	Line[500.00mil 225.00mil 525.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[525.00mil 250.00mil 590.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[590.00mil 250.00mil 670.00mil 330.00mil 10.00mil 20.00mil "clearline"]
+	Line[670.00mil 550.00mil 670.00mil 330.00mil 10.00mil 20.00mil "clearline"]
+	Line[690.00mil 305.00mil 600.00mil 215.00mil 10.00mil 20.00mil "clearline"]
+	Line[600.00mil 215.00mil 600.00mil 135.00mil 10.00mil 20.00mil "clearline"]
+	Line[600.00mil 135.00mil 550.00mil 85.00mil 10.00mil 20.00mil "clearline"]
+	Line[305.00mil 595.00mil 305.00mil 230.00mil 10.00mil 20.00mil "clearline"]
+	Line[305.00mil 230.00mil 350.00mil 185.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(2 "bottom")
 (
-	Line[300.00mil 765.00mil 300.00mil 690.00mil 30.00mil 20.00mil "clearline"]
-	Line[300.00mil 690.00mil 430.00mil 560.00mil 30.00mil 20.00mil "clearline"]
-	Line[430.00mil 560.00mil 430.00mil 140.00mil 30.00mil 20.00mil "clearline"]
-	Line[430.00mil 140.00mil 380.00mil 90.00mil 30.00mil 20.00mil "clearline"]
-	Line[380.00mil 90.00mil 300.00mil 90.00mil 30.00mil 20.00mil "clearline"]
-	Line[200.00mil 765.00mil 200.00mil 695.00mil 30.00mil 20.00mil "clearline"]
-	Line[200.00mil 695.00mil 65.00mil 560.00mil 30.00mil 20.00mil "clearline"]
-	Line[65.00mil 560.00mil 65.00mil 135.00mil 30.00mil 20.00mil "clearline"]
-	Line[65.00mil 135.00mil 110.00mil 90.00mil 30.00mil 20.00mil "clearline"]
-	Line[110.00mil 90.00mil 205.00mil 90.00mil 30.00mil 20.00mil "clearline"]
+	Line[750.00mil 750.00mil 750.00mil 630.00mil 10.00mil 20.00mil "clearline"]
+	Line[750.00mil 630.00mil 670.00mil 550.00mil 10.00mil 20.00mil "clearline"]
+	Line[670.00mil 550.00mil 670.00mil 315.00mil 10.00mil 20.00mil "clearline"]
+	Line[850.00mil 750.00mil 850.00mil 685.00mil 30.00mil 20.00mil "clearline"]
+	Line[850.00mil 685.00mil 700.00mil 535.00mil 30.00mil 20.00mil "clearline"]
+	Line[700.00mil 535.00mil 700.00mil 300.00mil 30.00mil 20.00mil "clearline"]
+	Line[350.00mil 750.00mil 350.00mil 610.00mil 10.00mil 20.00mil "clearline"]
+	Line[350.00mil 610.00mil 325.00mil 585.00mil 10.00mil 20.00mil "clearline"]
+	Line[325.00mil 585.00mil 325.00mil 295.00mil 10.00mil 20.00mil "clearline"]
+	Line[325.00mil 295.00mil 370.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[370.00mil 250.00mil 435.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[550.00mil 185.00mil 550.00mil 230.00mil 10.00mil 20.00mil "clearline"]
+	Line[550.00mil 230.00mil 530.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[530.00mil 250.00mil 455.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[510.00mil 250.00mil 415.00mil 250.00mil 10.00mil 20.00mil "clearline"]
+	Line[700.00mil 310.00mil 700.00mil 235.00mil 30.00mil 20.00mil "clearline"]
+	Line[700.00mil 235.00mil 650.00mil 185.00mil 30.00mil 20.00mil "clearline"]
+	Line[650.00mil 85.00mil 600.00mil 135.00mil 10.00mil 20.00mil "clearline"]
+	Line[600.00mil 135.00mil 600.00mil 245.00mil 10.00mil 20.00mil "clearline"]
+	Line[600.00mil 245.00mil 670.00mil 315.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(3 "outline")
 (
 	Line[1500.00mil 0.0000 1500.00mil 250.00mil 10.00mil 20.00mil "clearline"]
-	Line[0.0000 0.0000 500.00mil 0.0000 10.00mil 20.00mil "clearline"]
-	Line[500.00mil 0.0000 500.00mil 1000.00mil 10.00mil 20.00mil "clearline"]
-	Line[500.00mil 1000.00mil 0.0000 1000.00mil 10.00mil 20.00mil "clearline"]
-	Line[0.0000 1000.00mil 0.0000 0.0000 10.00mil 20.00mil "clearline"]
+	Line[755.00mil 525.00mil 1000.00mil 525.00mil 10.00mil 20.00mil "clearline"]
+	Line[1000.00mil 525.00mil 1000.00mil 1000.00mil 10.00mil 20.00mil "clearline"]
+	Line[1000.00mil 1000.00mil 0.0000 1000.00mil 10.00mil 20.00mil "clearline"]
+	Line[0.0000 1000.00mil 0.0000 525.00mil 10.00mil 20.00mil "clearline"]
+	Line[0.0000 525.00mil 250.00mil 525.00mil 10.00mil 20.00mil "clearline"]
+	Line[250.00mil 525.00mil 250.00mil 0.0000 10.00mil 20.00mil "clearline"]
+	Line[750.00mil 0.0000 750.00mil 525.00mil 10.00mil 20.00mil "clearline"]
+	Line[750.00mil 525.00mil 785.00mil 525.00mil 10.00mil 20.00mil "clearline"]
+	Line[250.00mil 0.0000 750.00mil 0.0000 10.00mil 20.00mil "clearline"]
 )
 Layer(4 "silk")
 (
 	Line[1495.00mil 245.00mil 1495.00mil 5.00mil 10.00mil 20.00mil "clearline"]
-	Line[5.00mil 5.00mil 495.00mil 5.00mil 10.00mil 20.00mil "clearline"]
-	Line[495.00mil 5.00mil 495.00mil 995.00mil 10.00mil 20.00mil "clearline"]
-	Line[495.00mil 995.00mil 5.00mil 995.00mil 10.00mil 20.00mil "clearline"]
-	Line[5.00mil 995.00mil 5.00mil 5.00mil 10.00mil 20.00mil "clearline"]
-	Text[20.00mil 45.00mil 1 100 "Iowa Scaled Eng" "clearline,onsolder"]
-	Text[405.00mil 40.00mil 1 100 "Signal Base 1X v1.0" "clearline,onsolder"]
+	Text[845.00mil 810.00mil 2 100 "Iowa Scaled Engineering" "clearline,onsolder"]
+	Text[785.00mil 905.00mil 2 100 "Signal Base 2X v1.0" "clearline,selected,onsolder"]
 )
 Layer(5 "silk")
 (
-	Line[5.00mil 5.00mil 495.00mil 5.00mil 10.00mil 20.00mil "clearline"]
-	Line[495.00mil 5.00mil 495.00mil 995.00mil 10.00mil 20.00mil "clearline"]
 	Line[495.00mil 995.00mil 5.00mil 995.00mil 10.00mil 20.00mil "clearline"]
-	Line[5.00mil 995.00mil 5.00mil 5.00mil 10.00mil 20.00mil "clearline"]
-	Line[65.00mil 190.00mil 130.00mil 190.00mil 10.00mil 20.00mil "clearline"]
-	Line[130.00mil 190.00mil 110.00mil 170.00mil 10.00mil 20.00mil "clearline"]
-	Line[130.00mil 190.00mil 110.00mil 210.00mil 10.00mil 20.00mil "clearline"]
-	Text[430.00mil 910.00mil 3 77 "COM" "clearline"]
-	Text[130.00mil 920.00mil 3 100 "G" "clearline"]
-	Text[225.00mil 925.00mil 3 100 "Y" "clearline"]
-	Text[335.00mil 925.00mil 3 100 "R" "clearline"]
+	Line[485.00mil 995.00mil 995.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[330.00mil 255.00mil 330.00mil 330.00mil 10.00mil 20.00mil "clearline"]
+	Line[330.00mil 255.00mil 310.00mil 275.00mil 10.00mil 20.00mil "clearline"]
+	Line[330.00mil 255.00mil 350.00mil 275.00mil 10.00mil 20.00mil "clearline"]
+	Line[5.00mil 530.00mil 5.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[995.00mil 530.00mil 750.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Line[995.00mil 530.00mil 995.00mil 995.00mil 10.00mil 20.00mil "clearline"]
+	Line[255.00mil 5.00mil 255.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Line[250.00mil 530.00mil 5.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Line[255.00mil 5.00mil 745.00mil 5.00mil 10.00mil 20.00mil "clearline"]
+	Line[745.00mil 5.00mil 745.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Line[745.00mil 530.00mil 780.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Line[255.00mil 530.00mil 225.00mil 530.00mil 10.00mil 20.00mil "clearline"]
+	Text[875.00mil 900.00mil 3 77 "COM" "clearline"]
+	Text[180.00mil 900.00mil 3 100 "G" "clearline"]
+	Text[275.00mil 905.00mil 3 100 "Y" "clearline"]
+	Text[385.00mil 905.00mil 3 100 "R" "clearline"]
+	Text[185.00mil 935.00mil 0 77 "UPPER" "clearline"]
+	Text[580.00mil 905.00mil 3 100 "G" "clearline"]
+	Text[675.00mil 910.00mil 3 100 "Y" "clearline"]
+	Text[785.00mil 910.00mil 3 100 "R" "clearline"]
+	Text[600.00mil 940.00mil 0 77 "LOWER" "clearline"]
 )
 NetList()
 (
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("J1-3")
-		Connect("J2-4")
+		Connect("J1-7")
+		Connect("J2-8")
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("J1-4")
-		Connect("J2-3")
+		Connect("J1-8")
+		Connect("J2-7")
 	)
 	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("J1-5")
+		Connect("J2-4")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("J1-6")
+		Connect("J2-6")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("J1-3")
+		Connect("J2-5")
+	)
+	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("J1-1")
 		Connect("J2-1")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("J1-2")
-		Connect("J2-2")
+		Connect("J2-3")
 	)
 )
