@@ -910,7 +910,7 @@ Layer(4 "silk")
 (
 	Line[1495.00mil 245.00mil 1495.00mil 5.00mil 10.00mil 20.00mil "clearline"]
 	Text[845.00mil 810.00mil 2 100 "Iowa Scaled Engineering" "clearline,onsolder"]
-	Text[785.00mil 905.00mil 2 100 "Signal Base 2X v1.0" "clearline,selected,onsolder"]
+	Text[785.00mil 905.00mil 2 100 "Signal Base 2X v1.0" "clearline,onsolder"]
 )
 Layer(5 "silk")
 (
@@ -929,14 +929,14 @@ Layer(5 "silk")
 	Line[745.00mil 530.00mil 780.00mil 530.00mil 10.00mil 20.00mil "clearline"]
 	Line[255.00mil 530.00mil 225.00mil 530.00mil 10.00mil 20.00mil "clearline"]
 	Text[875.00mil 900.00mil 3 77 "COM" "clearline"]
-	Text[180.00mil 900.00mil 3 100 "G" "clearline"]
+	Text[380.00mil 905.00mil 3 100 "G" "clearline"]
 	Text[275.00mil 905.00mil 3 100 "Y" "clearline"]
-	Text[385.00mil 905.00mil 3 100 "R" "clearline"]
+	Text[180.00mil 900.00mil 3 100 "R" "clearline"]
 	Text[185.00mil 935.00mil 0 77 "UPPER" "clearline"]
-	Text[580.00mil 905.00mil 3 100 "G" "clearline"]
+	Text[780.00mil 910.00mil 3 100 "G" "clearline"]
 	Text[675.00mil 910.00mil 3 100 "Y" "clearline"]
-	Text[785.00mil 910.00mil 3 100 "R" "clearline"]
 	Text[600.00mil 940.00mil 0 77 "LOWER" "clearline"]
+	Text[580.00mil 905.00mil 3 100 "R" "clearline"]
 )
 NetList()
 (
