@@ -1,0 +1,7 @@
+schematics ckt-sigrept.sch
+output-name ../pcb/ckt-sigrept
+skip-m4
+elements-dir ../../ise-footprints
+
+
+

@@ -1,0 +1,7 @@
+schematics ckt-sigcon.sch
+output-name ../pcb/ckt-sigcon
+skip-m4
+elements-dir ../../ise-footprints
+
+
+
