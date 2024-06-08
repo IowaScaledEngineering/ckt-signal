@@ -380,42 +380,6 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.635,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3048,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.1778,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Signal",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1778,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3048,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
         "clearance": 0.1778,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -424,22 +388,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_0-Default",
+        "nets": [
+          "Board_0-Net-(D1-Pad1)",
+          "Board_0-Net-(D1-Pad2)",
+          "Board_0-Net-(D2-Pad1)",
+          "Board_0-Net-(D3-Pad1)",
+          "Board_0-Net-(J1-Pad1)",
+          "Board_0-Net-(J1-Pad2)",
+          "Board_0-Net-(J1-Pad3)",
+          "Board_0-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_0-Net-(D3-Pad1)",
-          "Board_0-Net-(J1-Pad2)",
-          "Board_0-Net-(D2-Pad1)",
-          "Board_0-Net-(D1-Pad1)",
-          "Board_0-unconnected-(H2-Pad1)",
-          "Board_0-Net-(J1-Pad3)",
-          "Board_0-Net-(J1-Pad1)",
-          "Board_0-Net-(D1-Pad2)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -487,22 +451,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_1-Default",
+        "nets": [
+          "Board_1-Net-(D1-Pad1)",
+          "Board_1-Net-(D1-Pad2)",
+          "Board_1-Net-(D2-Pad1)",
+          "Board_1-Net-(D3-Pad1)",
+          "Board_1-Net-(J1-Pad1)",
+          "Board_1-Net-(J1-Pad2)",
+          "Board_1-Net-(J1-Pad3)",
+          "Board_1-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_1-Net-(J1-Pad3)",
-          "Board_1-Net-(J1-Pad1)",
-          "Board_1-Net-(D1-Pad1)",
-          "Board_1-Net-(D3-Pad1)",
-          "Board_1-Net-(D1-Pad2)",
-          "Board_1-unconnected-(H2-Pad1)",
-          "Board_1-Net-(J1-Pad2)",
-          "Board_1-Net-(D2-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -550,22 +514,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_2-Default",
+        "nets": [
+          "Board_2-Net-(D1-Pad1)",
+          "Board_2-Net-(D1-Pad2)",
+          "Board_2-Net-(D2-Pad1)",
+          "Board_2-Net-(D3-Pad1)",
+          "Board_2-Net-(J1-Pad1)",
+          "Board_2-Net-(J1-Pad2)",
+          "Board_2-Net-(J1-Pad3)",
+          "Board_2-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_2-unconnected-(H2-Pad1)",
-          "Board_2-Net-(D2-Pad1)",
-          "Board_2-Net-(D1-Pad1)",
-          "Board_2-Net-(J1-Pad2)",
-          "Board_2-Net-(D3-Pad1)",
-          "Board_2-Net-(D1-Pad2)",
-          "Board_2-Net-(J1-Pad1)",
-          "Board_2-Net-(J1-Pad3)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -613,22 +577,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_3-Default",
+        "nets": [
+          "Board_3-Net-(D1-Pad1)",
+          "Board_3-Net-(D1-Pad2)",
+          "Board_3-Net-(D2-Pad1)",
+          "Board_3-Net-(D3-Pad1)",
+          "Board_3-Net-(J1-Pad1)",
+          "Board_3-Net-(J1-Pad2)",
+          "Board_3-Net-(J1-Pad3)",
+          "Board_3-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_3-Net-(D1-Pad1)",
-          "Board_3-Net-(D1-Pad2)",
-          "Board_3-Net-(D2-Pad1)",
-          "Board_3-Net-(J1-Pad3)",
-          "Board_3-Net-(J1-Pad1)",
-          "Board_3-Net-(J1-Pad2)",
-          "Board_3-Net-(D3-Pad1)",
-          "Board_3-unconnected-(H2-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -676,22 +640,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_4-Default",
+        "nets": [
+          "Board_4-Net-(D1-Pad1)",
+          "Board_4-Net-(D1-Pad2)",
+          "Board_4-Net-(D2-Pad1)",
+          "Board_4-Net-(D3-Pad1)",
+          "Board_4-Net-(J1-Pad1)",
+          "Board_4-Net-(J1-Pad2)",
+          "Board_4-Net-(J1-Pad3)",
+          "Board_4-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_4-Net-(J1-Pad1)",
-          "Board_4-Net-(J1-Pad2)",
-          "Board_4-Net-(D1-Pad1)",
-          "Board_4-Net-(J1-Pad3)",
-          "Board_4-Net-(D2-Pad1)",
-          "Board_4-Net-(D1-Pad2)",
-          "Board_4-unconnected-(H2-Pad1)",
-          "Board_4-Net-(D3-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -739,22 +703,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_5-Default",
+        "nets": [
+          "Board_5-Net-(D1-Pad1)",
+          "Board_5-Net-(D1-Pad2)",
+          "Board_5-Net-(D2-Pad1)",
+          "Board_5-Net-(D3-Pad1)",
+          "Board_5-Net-(J1-Pad1)",
+          "Board_5-Net-(J1-Pad2)",
+          "Board_5-Net-(J1-Pad3)",
+          "Board_5-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_5-Net-(D3-Pad1)",
-          "Board_5-unconnected-(H2-Pad1)",
-          "Board_5-Net-(J1-Pad1)",
-          "Board_5-Net-(D1-Pad1)",
-          "Board_5-Net-(D2-Pad1)",
-          "Board_5-Net-(D1-Pad2)",
-          "Board_5-Net-(J1-Pad3)",
-          "Board_5-Net-(J1-Pad2)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -802,22 +766,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_6-Default",
+        "nets": [
+          "Board_6-Net-(D1-Pad1)",
+          "Board_6-Net-(D1-Pad2)",
+          "Board_6-Net-(D2-Pad1)",
+          "Board_6-Net-(D3-Pad1)",
+          "Board_6-Net-(J1-Pad1)",
+          "Board_6-Net-(J1-Pad2)",
+          "Board_6-Net-(J1-Pad3)",
+          "Board_6-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_6-Net-(J1-Pad2)",
-          "Board_6-Net-(D2-Pad1)",
-          "Board_6-Net-(D1-Pad1)",
-          "Board_6-Net-(D3-Pad1)",
-          "Board_6-Net-(D1-Pad2)",
-          "Board_6-Net-(J1-Pad1)",
-          "Board_6-Net-(J1-Pad3)",
-          "Board_6-unconnected-(H2-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -865,22 +829,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_7-Default",
+        "nets": [
+          "Board_7-Net-(D1-Pad1)",
+          "Board_7-Net-(D1-Pad2)",
+          "Board_7-Net-(D2-Pad1)",
+          "Board_7-Net-(D3-Pad1)",
+          "Board_7-Net-(J1-Pad1)",
+          "Board_7-Net-(J1-Pad2)",
+          "Board_7-Net-(J1-Pad3)",
+          "Board_7-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_7-Net-(J1-Pad2)",
-          "Board_7-Net-(D2-Pad1)",
-          "Board_7-Net-(J1-Pad1)",
-          "Board_7-Net-(D3-Pad1)",
-          "Board_7-Net-(J1-Pad3)",
-          "Board_7-Net-(D1-Pad1)",
-          "Board_7-Net-(D1-Pad2)",
-          "Board_7-unconnected-(H2-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -928,22 +892,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_8-Default",
+        "nets": [
+          "Board_8-Net-(D1-Pad1)",
+          "Board_8-Net-(D1-Pad2)",
+          "Board_8-Net-(D2-Pad1)",
+          "Board_8-Net-(D3-Pad1)",
+          "Board_8-Net-(J1-Pad1)",
+          "Board_8-Net-(J1-Pad2)",
+          "Board_8-Net-(J1-Pad3)",
+          "Board_8-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_8-Net-(D1-Pad1)",
-          "Board_8-Net-(J1-Pad1)",
-          "Board_8-Net-(D2-Pad1)",
-          "Board_8-Net-(J1-Pad2)",
-          "Board_8-Net-(J1-Pad3)",
-          "Board_8-Net-(D1-Pad2)",
-          "Board_8-unconnected-(H2-Pad1)",
-          "Board_8-Net-(D3-Pad1)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -991,22 +955,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_9-Default",
+        "nets": [
+          "Board_9-Net-(D1-Pad1)",
+          "Board_9-Net-(D1-Pad2)",
+          "Board_9-Net-(D2-Pad1)",
+          "Board_9-Net-(D3-Pad1)",
+          "Board_9-Net-(J1-Pad1)",
+          "Board_9-Net-(J1-Pad2)",
+          "Board_9-Net-(J1-Pad3)",
+          "Board_9-unconnected-(H2-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_9-unconnected-(H2-Pad1)",
-          "Board_9-Net-(D2-Pad1)",
-          "Board_9-Net-(D3-Pad1)",
-          "Board_9-Net-(D1-Pad2)",
-          "Board_9-Net-(J1-Pad3)",
-          "Board_9-Net-(D1-Pad1)",
-          "Board_9-Net-(J1-Pad1)",
-          "Board_9-Net-(J1-Pad2)"
-        ]
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -1036,6 +1000,42 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Board_9-Signal",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1778,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.635,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1778,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signal",
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
