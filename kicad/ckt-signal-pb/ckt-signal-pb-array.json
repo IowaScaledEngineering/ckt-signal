@@ -3,7 +3,7 @@
         "type": "grid",
         "rows": 10,
         "cols": 1,
-        "space": "100mil",
+        "space": "25mil",
         "rotation": "90deg",
         "alternation": "rows",
     },
