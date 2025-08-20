@@ -1,9 +1,9 @@
 {
     "layout": {
         "type": "grid",
-        "rows": 6,
+        "rows": 10,
         "cols": 1,
-        "space": "-99mil",
+        "space": "25mil",
         "rotation": "90deg",
         "alternation": "rows",
     },
